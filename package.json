@@ -1,6 +1,6 @@
 {
   "name": "gini-ss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "compute Gini coefficient with small sample correction",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,5 @@
     "mocha": "^2.5.3",
     "should": "^8.4.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
