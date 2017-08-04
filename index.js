@@ -1,7 +1,9 @@
 module.exports = function(x){
     let sumdiff = 0;
     let sum = 0;
-    let n = x.length;
+    if (!Array.isArray(x)) return undefined;
+    const n = x.length;
+    if (n<2) return undefined;
     for(let i=0,l=x.length;i<l;++i){
 	sum += x[i];
 	for(let j=0;j<i;++j)

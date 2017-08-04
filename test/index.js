@@ -16,6 +16,20 @@ describe('gini-ss', function(){
 	    }
     });
 
+    it('should return undefined when there is only one input value in the data array', function(){
+	assert(giniSS([34])===undefined);
+    });
+
+    it('should return undefined when the input array is empty', function(){
+	assert(giniSS([])===undefined);
+    });
+
+    it('should return undefined when the input is not an array', function(){
+	assert(giniSS({})===undefined);
+	assert(giniSS(10.5)===undefined);
+	assert(giniSS("hello world 1,2,3")===undefined);
+    });
+    
     it('should return 1.0 when all inputs are zero except for one positive number', function(){
 	for(let size=2;size<=10;++size)
 	    for(let pos=0;pos<size;++pos)
@@ -33,7 +47,8 @@ describe('gini-ss', function(){
 	const diff = Math.abs(giniSS(data) - (99.0/303.0));
 	diff.should.be.below(0.01);
     });
-	
+
+    
 
 });
 
