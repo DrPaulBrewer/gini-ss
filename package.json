@@ -1,0 +1,30 @@
+{
+  "name": "gini-ss",
+  "version": "0.1.0",
+  "description": "compute Gini coefficient with small sample correction",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --slow 50 --timeout 2000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpaulbrewer/gini-ss.git"
+  },
+  "keywords": [
+    "Gini",
+    "economics",
+    "inequality"
+  ],
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drpaulbrewer/gini-ss/issues"
+  },
+  "homepage": "https://github.com/drpaulbrewer/gini-ss#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^8.4.0"
+  },
+  "dependencies": {
+  }
+}
