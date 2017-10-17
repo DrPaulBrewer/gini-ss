@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/drpaulbrewer/gini-ss#readme",
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "should": "^8.4.0"
+    "mocha": "^4.0.1",
+    "should": "^13.1.2"
   },
   "dependencies": {}
 }
