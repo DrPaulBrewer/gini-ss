@@ -1,6 +1,6 @@
 # gini-ss
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/DrPaulBrewer/gini-ss.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/DrPaulBrewer/gini-ss.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/gini-ss)
 
 Compute the gini coefficient of the numeric data, with small sample correction.
